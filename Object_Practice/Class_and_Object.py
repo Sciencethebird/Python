@@ -1,3 +1,9 @@
+'''
+Practice:
+    - class
+    - function
+'''
+
 class crush:
 
     def __init__(self, new_name = 'Nobody', level = 0, state = False):
