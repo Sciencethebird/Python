@@ -16,3 +16,16 @@ Object_Practice/venv/bin/python3
 *.json
 *.cfg
 .DS_Store
+*.6
+test2/venv/bin/python3
+test2/venv/bin/pip3
+test2/venv/bin/python
+test2/venv/bin/pip
+test2/venv/bin/easy_install
+test2/venv/bin/activate
+test/venv/bin/python3
+test/venv/bin/python
+test/venv/bin/pip3
+test/venv/bin/pip
+test/venv/bin/easy_install
+test/venv/bin/activate
