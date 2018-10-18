@@ -1,3 +1,12 @@
+'''
+- variable number of arguments
+- list initialize
+- for loop
+- range()
+- len()
+
+'''
+
 def count_alphabet_old(input, *alphabet):
     print(input)
     count = [] #initialize first just like temp
