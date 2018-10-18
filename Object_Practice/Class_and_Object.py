@@ -1,7 +1,6 @@
 '''
-Practice:
-    - class
-    - function
+ - class
+ - function
 '''
 
 class crush:
