@@ -31,5 +31,8 @@ test/venv/bin/easy_install
 test/venv/bin/activate
 
 python3
+python
 pip3
+pip
 activate
+easy_install
