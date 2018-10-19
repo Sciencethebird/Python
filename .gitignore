@@ -1,6 +1,6 @@
 
 # Operating System
- .DS_Store
+.DS_Store
 *.xml
 *.iml
 *.pyc
@@ -13,12 +13,12 @@
 *.6
 
 #PyCharm
- python3
- python
- pip3
- pip
- activate
- easy_install
+python3
+python
+pip3
+pip
+activate
+easy_install
 
 #Other files
- Object_Practice/sample.txt
+Object_Practice/sample.txt
