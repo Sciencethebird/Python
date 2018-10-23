@@ -9,3 +9,9 @@ list = ["lol","lmao","haha"]
 print (s1.join( seq ))
 print (s2.join( seq ))
 print ("-".join(list))
+
+'''
+r-u-n-o-o-b
+runoob
+lol-lmao-haha
+'''
