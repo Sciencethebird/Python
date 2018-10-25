@@ -20,8 +20,12 @@ pip
 activate
 easy_install
 
+#Visual Studio
+*.pyproj
+*.sln
+.suo
+
 #Other files
 Object_Practice/sample.txt
-*.pyproj
-Co-op_test/.vs/Co-op_test/v15/.suo
-*.sln
+
+
