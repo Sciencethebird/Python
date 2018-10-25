@@ -22,3 +22,6 @@ easy_install
 
 #Other files
 Object_Practice/sample.txt
+*.pyproj
+Co-op_test/.vs/Co-op_test/v15/.suo
+*.sln
