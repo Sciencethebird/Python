@@ -21,7 +21,13 @@ file = open('default.txt', 'a+')
 file.write('\nappend mode')
 file.close()
 
-file = open('default.txt')
+file = open('default.txt','r')
 text = file.read()
 print(text)
+file.close()
+
+#readlines returns a list
+file = open('sample.txt','r')
+text = file.readlines()
+print(text[0])
 file.close()
