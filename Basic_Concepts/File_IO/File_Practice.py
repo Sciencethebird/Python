@@ -1,6 +1,7 @@
 import os
 
 cwd = os.getcwd()
+cwd = cwd +'\\'+'File_IO\\'
 print('Current Working Directory:\t' + cwd)
 
 lt = [1,2,3,4]
