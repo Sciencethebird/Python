@@ -9,13 +9,20 @@ with open(cwd+'example.csv') as csvfile:
     readCSV = csv.reader(csvfile, delimiter = ',')
     
     dates = []
-    colors = []
+    names = []
 
     for row in readCSV:
-        color = row[3]
+        name = row[3]
         date = row[0]
         
         dates.append(date)
-        colors.append(color)
+        names.append(name)
+
     print(dates)
-    print(colors)
+    print(names)
+    
+    whatname = input('Type in Name to find Date: ')
+    idx = names.index(whatname)
+    print('Date of ',whatname, 'is ', dates[idx])
+
+
