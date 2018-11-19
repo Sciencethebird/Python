@@ -3,7 +3,8 @@ import csv
 import os
 
 cwd = os.getcwd()
-cwd = cwd + '\\CSV\\'
+cwd = cwd + '\\CSV\\'# for windows
+#cwd = cwd+'/' # for macs
 print(cwd)
 with open(cwd+'example.csv') as csvfile:
     readCSV = csv.reader(csvfile, delimiter = ',')
